@@ -33,6 +33,23 @@
     <link rel="stylesheet" href="./Mis 15 Años_files/styles.css">
     <link rel="stylesheet" href="./Mis 15 Años_files/mediaQueries.css">
     <link rel="stylesheet" href="./Mis 15 Años_files/aos.css">
+    <style>
+        .imagen-centrada {
+  display: flex;
+  justify-content: center; /* Centra horizontal */
+  align-items: center;     /* Centra vertical (si tiene altura) */
+  width: 100%;
+  margin: 20px 0;
+}
+
+.imagen-centrada img {
+  width: 100%;       /* ocupa todo el ancho disponible */
+  max-width: 600px;  /* tamaño máximo */
+  display: block;
+  border-radius: 20px;
+}
+
+    </style>
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
@@ -41,7 +58,11 @@
     <header class="header">
 
         <nav class="nav container" id="nav">
-     
+   <div class="imagen-centrada">
+  <img src="portada.png" alt="Portada de la invitación">
+</div>
+
+
 
             <div class="nav__icons">
                 <a href="https://naileth19.github.io/invitacionescreativas/#nav">
