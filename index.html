@@ -33,7 +33,15 @@
     <link rel="stylesheet" href="./Mis 15 Años_files/styles.css">
     <link rel="stylesheet" href="./Mis 15 Años_files/mediaQueries.css">
     <link rel="stylesheet" href="./Mis 15 Años_files/aos.css">
-  
+  <style>
+  .contenedor-imagen {
+    border: 0px solid black; /* Solo para visualizar el div */
+     }
+  .imagen-con-margen {
+    margin-top: 50px; /* Este es el margen superior que buscamos */
+     height: auto; /* Mantiene la proporción */
+  }
+</style>
 </head>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
@@ -79,9 +87,10 @@
                
         <section class="music">
 
-           <div>
-  <img src="miniatura.png" alt="Descripción de la imagen">
+         <div class="contenedor-imagen">
+  <img src="miniatura.png" alt="Descripción de la imagen" class="imagen-con-margen">
 </div>
+
 
              <h3 class="music__title">Dale Play!
             </h3>
