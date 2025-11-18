@@ -27,7 +27,7 @@
     --font-leckerli: "Leckerli One", cursive;
     --font-estrella: "Twinkle Star", cursive;
     --font-italiano: "Italianno", cursive;
-
+--font-family: "Playfair Display", serif;
 
 
     
@@ -141,7 +141,7 @@
 }
 
 .subtitle {
-    font-family: var(--font-italiano);
+    font-family: "Playfair Display", serif;
     font-size: 2rem;
     text-align: center;
 }
@@ -150,7 +150,7 @@
     color: var(--color-parrafos);
     font-size: 3rem;
     text-align: center;
-    font-family: var(--font-italiano);
+   font-family: "Playfair Display", serif;
     font-weight: 800;
     margin: 0;
 }
