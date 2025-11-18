@@ -578,9 +578,18 @@ header {
 }
 
 .parrafo--donde {
+    
     margin: .5em auto;
     padding: 0 1em;
     font-size: 1.8rem;
+     text-align: center;
+    font-family: var(--font-imperial);
+    color: var(--color-parrafos);
+    padding: 2em;
+    line-height: 1.4;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 0 auto;
 }
 
 
