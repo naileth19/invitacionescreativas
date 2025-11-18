@@ -2038,7 +2038,8 @@ input[type="radio"] {
 .boton-ubicacion,
 .boton-itinerario {
     font-size: 14px !important;
-    padding: 10px 18px !important;
+    padding: 14px 26px !important;
+    border-radius: 10px !important;
 }
 
 /* 🔹 Ajustar textos de ubicación */
@@ -2058,5 +2059,5 @@ input[type="radio"] {
 
 /* 🔹 Frases */
 .frase__paragraph {
-    font-size: 16px !important;
+    font-size: 14px !important;
 }
