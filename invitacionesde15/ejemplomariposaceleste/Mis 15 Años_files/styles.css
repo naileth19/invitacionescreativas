@@ -156,7 +156,7 @@
 }
 
 .contenedor {
-     background: rgba(200, 200, 200, 0.4); /* gris + transparencia */
+    background: rgba(100, 180, 255, 0.4); /* celeste + transparencia */
     width: clamp(100px, 90%, 700px);
     margin: 0 auto;
     border-radius: 1em;
@@ -302,7 +302,7 @@ header {
     position: relative;
     width: clamp(100px, 80%, 450px);
     border-radius: 3em;
-    background: url(../assets/imagenes/fondoReproductor.webp);
+    background: url(/fondoReproductor.webp);
     height: 60px;
     box-shadow: 0 0 10px #ffffff;
     display: flex;
@@ -1885,7 +1885,7 @@ input[type="radio"] {
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url(../assets/vectores/wavefooter.svg);
+    background-image: url(wavefooter.png);
     background-size: 1000px 100px;
 }
 
