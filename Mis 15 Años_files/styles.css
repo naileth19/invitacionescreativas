@@ -156,7 +156,7 @@
 }
 
 .contenedor {
-    background: #9b9b9b;
+     background: rgba(200, 200, 200, 0.4); /* gris + transparencia */
     width: clamp(100px, 90%, 700px);
     margin: 0 auto;
     border-radius: 1em;
