@@ -2015,3 +2015,48 @@ input[type="radio"] {
 .boton-descarga:hover {
     background-color: #0056b3;
 }
+/* 🔹 Textos generales más pequeños */
+.parrafo,
+.parrafo--fotos,
+.parrafo--donde,
+.regalos__data p,
+.informacion__parrafo {
+    font-size: 14px !important;
+}
+
+/* 🔹 Textos de títulos secundarios */
+.subtitle,
+.title--donde,
+.title--fotos {
+    font-size: 20px !important;
+}
+
+/* 🔹 Botones más pequeños */
+.btn-whatsapp,
+.boton,
+.boton-confirmar,
+.boton-ubicacion,
+.boton-itinerario {
+    font-size: 14px !important;
+    padding: 10px 18px !important;
+}
+
+/* 🔹 Ajustar textos de ubicación */
+.donde__data p,
+.donde__paragraph,
+.donde__direccion,
+.ubicacion__texto {
+    font-size: 14px !important;
+    line-height: 1.4;
+}
+
+/* 🔹 Información tipo bloques */
+.info__text,
+.info__card p {
+    font-size: 14px !important;
+}
+
+/* 🔹 Frases */
+.frase__paragraph {
+    font-size: 16px !important;
+}
