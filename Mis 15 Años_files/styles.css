@@ -2036,3 +2036,27 @@ input[type="radio"] {
         padding: 14px 22px !important;
         border-radius: 12px !important;
     }
+
+
+section,
+div,
+.container,
+.contenedor,
+.box,
+.card,
+.bloque,
+.caja,
+.fondo-negro,
+.fondo,
+.wrapper {
+  background-color: #f2f2f2 !important; /* gris claro */
+  color: #000 !important; /* texto negro */
+}
+
+
+/* ====== TEXTOS EN NEGR0 DENTRO DE LOS CONTENEDORES ====== */
+
+h1, h2, h3, h4, h5, h6,
+p, span, a, li, label, strong {
+  color: #000 !important;
+}
