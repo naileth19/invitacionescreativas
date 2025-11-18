@@ -2023,3 +2023,16 @@ input[type="radio"] {
 .boton-descarga:hover {
     background-color: #0056b3;
 }
+
+
+
+
+
+
+.boton__cta, 
+    .alias__button, 
+    .cbu__button {
+        font-size: 1.2rem !important;
+        padding: 14px 22px !important;
+        border-radius: 12px !important;
+    }
