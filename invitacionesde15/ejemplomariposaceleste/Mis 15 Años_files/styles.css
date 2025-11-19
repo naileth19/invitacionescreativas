@@ -147,7 +147,7 @@
 }
 
 .parrafo {
-    color: #000000;
+    color: #333;
     font-size: 1rem;
     text-align: center;
    font-family: "Playfair Display", serif;
@@ -156,7 +156,7 @@
 }
 
 .contenedor {
-    background: rgba(100, 180, 255, 0.4); /* celeste + transparencia */
+    background: rgba(255, 255, 255, 0.7);
     width: clamp(100px, 90%, 700px);
     margin: 0 auto;
     border-radius: 1em;
